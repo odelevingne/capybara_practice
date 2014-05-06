@@ -12,6 +12,6 @@ class MyApp < Sinatra::Base
 		end
 
 		get "/form" do
-			erb:index
+			erb:form
 		end
 end
